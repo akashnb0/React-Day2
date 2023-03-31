@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  
+  .car-image {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/6225f2418a4efde06090a147/Volvo-XC40-Recharge-on-a-street/960x0.jpg?format=jpg&width=960');
+    background-size: cover;
+    width: 36%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .car-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .learn-more-btn, .order-online-btn {
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .learn-more-btn:hover, .order-online-btn:hover {
+    background-color: #333;
+  }
+  
